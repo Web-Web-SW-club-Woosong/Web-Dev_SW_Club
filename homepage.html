@@ -6,81 +6,66 @@
             <title>
                 Software&Entrepreneurship Club
             </title>
+        
+        <!-- Google Fonts -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        
+        <!-- Vendor CSS Files -->
+
+        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+        <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+        <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="css/style.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <link rel="icon" icon="image/x-icon" href="Endicott_College_Logo.jpg">
-        <style>
-
-            h2{
-                text-align: center;
-                margin-top: 20px;
-                margin-bottom: 10px;
-            }
-
-            .about-container {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-            }
-
-            .project-container {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-            }
-
-            .event-container {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                margin-bottom: 10px;
-            }
-
-            .project-text {
-                flex: 1;
-                padding: 20px;
-            }
-
-            .project-video {
-                flex: 1;
-            }
-
-            .image1 {
-                width: 350;
-                height: 400;
-            }
-
-            .image2 {
-                width: 300px;
-                height: 337px;
-            }
-
-        </style>
+        <script src="js/main.js"></script>
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Software & Entrepreneurship</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="what's_in_board.html">What's in board</a></li>
-                    <li class="nav-item"><a class="nav-link" href="how_we_work.html">How we work</a></li>
+        <header id="header" class="header d-flex align-items-center fixed-top">
+            <div class="container-fluid d-flex align-items-center justify-content-between">
+                <i class="bi bi-camera"></i>
+        <nav id="navbar" class="navbar">
+                <ul>
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">What's in board</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">How we work</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Meatings</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">What we have built</a></li>  
                     <li class="nav-item"><a class="nav-link" href="#">Learning roadmap</a></li>  
                 </ul>
-            </div>
         </nav>
+        <div class="header-social-links">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+          </div>
+          <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+          <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+        </div>
+    </div>
+      </header>
 
-        <header class="jumbotron text-center">
-            <h1>Welcome to Software & Entrepreneurship Club</h1>
-            <p>We are thrilled to invite you to our club</p>
-            <a href="contact.html" type="_blank" class="btn btn-primary btn-lg">Contact</a>
-        </header>
+        <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade" data-aos-delay="1500">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                  <h2>Where <span>Doers</span> and Professional work ethic comes together</h2>
+                  <!-- <p>idk what to write</p> -->
+                   <a href="contact.html" type="_blank" class="btn-get-started">Contact</a>
+                </div>
+              </div>
+            </div>
+          </section>
 
             <div class="container">
             <section id="about">
@@ -112,6 +97,52 @@
                     <div class="project-text">
                         <dl class="list-unstyled">
                             <dt>Developer:</dt>
+                                <dd>Jason Jeovanka</dd>
+                            <dt>About:</dt>
+                                <dd>Woosong Survivor</dd>
+                                <dd>
+                                    The Woosong Survivor game sets on a university area. 
+                                    The user has to protect the entire Woosong building from the various monsters. 
+                                    The longer he survives, the more difficult it becomes. It's all about quick thinking, 
+                                    resourcefulness, and outsmarting your opponents in a constantly changing environment. 
+                                    Be the hero to save the university!
+                                </dd>
+                                <a href="https://games.gdevelop-app.com/game-3b2a67f7-24d9-435d-869f-5c4ff2082e2c/index.html" style="text-decoration: none;"><dt>Play Here</dt></a> 
+                        </dl>
+                    </div>
+                    <div class="project-video">
+                        <iframe width="410" height="240" src="https://www.youtube.com/embed/PFL25KhDmSw" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="project-container">
+                    <div class="project-video">
+                        <iframe width="410" height="240" src="https://www.youtube.com/embed/VwedcCuFW-M" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-text">
+                        <dl class="list-unstyled">
+                            <dt>Developer:</dt>
+                                <dd>Alekshi</dd>
+                            <dt>About:</dt>
+                                <dd>12 Labors Of Hercules</dd>
+                                <dd>
+                                    Students of the AI & big data department study 
+                                    journey while avoiding common obstacles (failing) 
+                                    until graduation day. As the journey gradually increases 
+                                    in complexity, student easily encounters more and more 
+                                    obstacles. However, before a student runs out of motivation 
+                                    they attentively receive support and consultation from our 
+                                    professors and counselors throughout the year.
+                                </dd>
+                                <a href="https://games.gdevelop-app.com/game-3b2a67f7-24d9-435d-869f-5c4ff2082e2c/index.html" style="text-decoration: none;"><dt>Play Here</dt></a>
+                        </dl>
+                    </div>
+                </div> 
+
+                <div class="project-container">
+                    <div class="project-text">
+                        <dl class="list-unstyled">
+                            <dt>Developer:</dt>
                                 <dd>Heang Seavleu</dd>
                             <dt>About:</dt>
                                 <dd>w-haksen is a platformer-engine-based game.</dd>
@@ -123,35 +154,12 @@
                                     obstacles. However, before a student runs out of motivation 
                                     they attentively receive support and consultation from our 
                                     professors and counselors throughout the year.
-                                </dd> 
+                                </dd>
+                                <a href="https://games.gdevelop-app.com/game-3b2a67f7-24d9-435d-869f-5c4ff2082e2c/index.html" style="text-decoration: none;"><dt>Play Here</dt></a>
                         </dl>
                     </div>
                     <div class="project-video">
                         <iframe width="410" height="240" src="https://www.youtube.com/embed/VwedcCuFW-M" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-
-                <div class="project-container">
-                    <div class="project-video">
-                        <video width="410" height="240" controls>
-                            <source src="https://drive.google.com/file/d/1nYtkIaJomtFNUpxz28lCuWlPOO_Beq_3/view?usp=sharing" type="video/mp4">
-                            Your browser doesn't support the video tag.
-                        </video>
-                    </div>  
-                    <div class="project-text">
-                        <dl class="list-unstyled">
-                            <dt>Developer:</dt>
-                                <dd>Jason Jeovanka</dd>
-                            <dt>About:</dt>
-                                <dd>Woosong Survivor</dd>
-                                <dd>
-                                    The Woosong Survivor game sets on a university area. 
-                                    The user has to protect the entire Woosong building from the various monsters. 
-                                    The longer he survives, the more difficult it becomes. It's all about quick thinking, 
-                                    resourcefulness, and outsmarting your opponents in a constantly changing environment. 
-                                    Be the hero to save the university!
-                                </dd> 
-                        </dl>
                     </div>
                 </div>
             </section>
